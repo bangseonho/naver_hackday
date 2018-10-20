@@ -1,0 +1,39 @@
+<div class="jumbotron">
+	<form>
+	  <div class="row row-bot">
+	    <div class="col">
+	      <input type="text" class="form-control" placeholder="출발지">
+	    </div>
+	    <div class="col">
+	      <input type="text" class="form-control" placeholder="도착지">
+	    </div>
+	  </div>
+	  <div class="row row-bot">
+	    <div class="col">
+	      <input type="text" class="form-control" placeholder="출발날짜" id="Datepicker">
+	    </div>
+	    <div class="col">
+	      <input type="text" class="form-control" placeholder="도착날짜" id="Datepicker">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <select class="form-control" id="exampleFormControlSelect1">
+	      <option>성인 1명</option>
+	      <option>성인 2명</option>
+	      <option>성인 3명</option>
+	      <option>성인 4명</option>
+	      <option>성인 5명</option>
+	      <option>성인 6명</option>
+	    </select>
+	  </div>
+	<center>
+		<%= link_to "Search!", '#', class: 'btn btn-lg btn-primary', role: 'submit' %>
+	</center>
+</div>
+<div class="container">
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Osaka.jpg' %>);">
+			
+		</div>
+	</a>
+</div>
