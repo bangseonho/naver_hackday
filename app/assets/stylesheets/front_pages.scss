@@ -11,13 +11,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contents-image {
-	width: 400px;
+	width: 357px;
 	height: 250px;
 	background-size: 100% 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
 }
+
+.recommend {
+	list-style: none;
+	display: inline;
+	font: bold 12px Dotum;
+}
+
+.recommend-li {
+	border-left: 1px solid #999;
+	float: left;
+	padding: 0 10px;
+}
+.recommend-li:first-child{border-left: none;}
 
 .row-bot {
 	padding-bottom: 10px;
+}
+
+.view {
+	a {
+		color: #FFFFFF;
+	}
+	a:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a:link {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
 }
 
 #logo {

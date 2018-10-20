@@ -13,7 +13,7 @@
 	      <input type="text" class="form-control" placeholder="출발날짜" id="Datepicker">
 	    </div>
 	    <div class="col">
-	      <input type="text" class="form-control" placeholder="도착날짜" id="Datepicker">
+	      <input type="text" class="form-control" placeholder="도착날짜" id="Datepicker2">
 	    </div>
 	  </div>
 	  <div class="form-group">
@@ -30,10 +30,69 @@
 		<%= link_to "Search!", '#', class: 'btn btn-lg btn-primary', role: 'submit' %>
 	</center>
 </div>
-<div class="container">
+
+<div class="container list">
+	<ul class="recommend">
+		<li class="nav-item recommend-li"><a href="javascript:void(0)" onclick="recommendA" id="recommendAsia">동남아</a></li>
+		<li class="nav-item recommend-li"><a href="javascript:void(0)" onclick="recommendB" id="recommendEurope">유럽</a></li>
+		<li class="nav-item recommend-li"><a href="javascript:void(0)" onclick="recommendC">미주</a></li>
+	</ul>
+</div>
+
+<div class="container view list">
 	<a href="/#">
-		<div class="contents-image" style="background-image: url(<%= asset_path 'Osaka.jpg' %>);">
-			
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Osaka.jpg' %>); ">
+			<h2>오사카</h2>
+		</div>
+	</a>
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Hongkong.jpg' %>); ">
+			<h2>홍콩</h2>
+		</div>
+	</a>
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Taiwan.png' %>); ">
+			<h2>대만</h2>
+		</div>
+	</a>
+</div>
+
+<hr class="my-4">
+
+<div class="container view list">
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'France.jpg' %>); ">
+			<h2>프랑스</h2>
+		</div>
+	</a>
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Italy.jpg' %>); ">
+			<h2>이탈리아</h2>
+		</div>
+	</a>
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Praha.jpg' %>); ">
+			<h2>체코</h2>
+		</div>
+	</a>
+</div>
+
+<hr class="my-4">
+
+<div class="container view list">
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Newyork.jpg' %>); ">
+			<h2>뉴욕</h2>
+		</div>
+	</a>
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'LasVegas.jpg' %>); ">
+			<h2>라스베가스</h2>
+		</div>
+	</a>
+	<a href="/#">
+		<div class="contents-image" style="background-image: url(<%= asset_path 'Quebec.jpg' %>); ">
+			<h2>퀘벡</h2>
 		</div>
 	</a>
 </div>
