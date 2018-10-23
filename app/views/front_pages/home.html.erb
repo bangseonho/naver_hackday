@@ -1,11 +1,11 @@
 <div class="jumbotron">
-	<form>
+	<form autocomplete="off">
 	  <div class="row row-bot">
-	    <div class="col">
-	      <input type="text" class="form-control" placeholder="출발지">
+	    <div class="autocomplete col">
+	      <input type="text" class="form-control" placeholder="출발지" id="myInput" name="myCountry">
 	    </div>
-	    <div class="col">
-	      <input type="text" class="form-control" placeholder="도착지">
+	    <div class="autocomplete col">
+	      <input type="text" class="form-control" placeholder="도착지" id="myInput2" name="myCountry">
 	    </div>
 	  </div>
 	  <div class="row row-bot">
@@ -96,3 +96,8 @@
 		</div>
 	</a>
 </div>
+
+<script>
+autocomplete(document.getElementById("myInput"), countries);
+autocomplete(document.getElementById("myInput2"), countries);
+</script>

@@ -16,7 +16,12 @@
 		<!-- navbar -->
 		<nav class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
+				<% if user_signed_in? %>
+					<li class="nav-item"><p class="nav-link" style="padding-bottom: 0px; margin: 0;"><%= current_user.email %>님</p></li>
+				<% end %>
+
 				<li class="nav-item"><%= link_to '홈', root_path, class: 'nav-link' %></li>
+				
 				<% if user_signed_in? %>
 					<li class="nav-item"><%= link_to '마이 페이지', root_path, class: 'nav-link' %></li>
 					<li class="nav-item"><%= link_to '로그아웃', destroy_user_session_path, method: 'delete', class: 'nav-link' %></li>
