@@ -1,19 +1,19 @@
 <div class="jumbotron">
-	<form autocomplete="off">
+	<form autocomplete="off" action="/front_pages/info">
 	  <div class="row row-bot">
 	    <div class="autocomplete col">
 	      <input type="text" class="form-control" placeholder="출발지" id="myInput" name="myCountry">
 	    </div>
 	    <div class="autocomplete col">
-	      <input type="text" class="form-control" placeholder="도착지" id="myInput2" name="myCountry">
+	      <input type="text" class="form-control" placeholder="도착지" id="myInput2" name="myCountry2">
 	    </div>
 	  </div>
 	  <div class="row row-bot">
 	    <div class="col">
-	      <input type="text" class="form-control" placeholder="출발날짜" id="Datepicker">
+	      <input type="text" class="form-control" placeholder="출발날짜" id="Datepicker" name="departureday">
 	    </div>
 	    <div class="col">
-	      <input type="text" class="form-control" placeholder="도착날짜" id="Datepicker2">
+	      <input type="text" class="form-control" placeholder="도착날짜" id="Datepicker2" name="arrivalday">
 	    </div>
 	  </div>
 	  <div class="form-group">
@@ -27,8 +27,10 @@
 	    </select>
 	  </div>
 	<center>
-		<%= link_to "Search!", '#', class: 'btn btn-lg btn-primary', role: 'submit' %>
+		<input type="submit" class="btn btn-lg btn-primary">
+		<!--<%= link_to "Search!", '#', class: 'btn btn-lg btn-primary', role: 'submit' %>-->
 	</center>
+	</form>
 </div>
 
 <div class="container list">
