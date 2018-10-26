@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Open API
+gem 'rest-client'
 # show rails db
 gem 'rails_db'
 # Member join
