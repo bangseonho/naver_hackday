@@ -4,7 +4,7 @@
 
 <div>
   <img src="https://user-images.githubusercontent.com/37283474/47763172-ec5d2300-dd02-11e8-9173-c338ff5671ff.png">
-  <img src="https://user-images.githubusercontent.com/37283474/47763824-9a69cc80-dd05-11e8-8b73-131eec9c159d.png">
+  <img src="https://user-images.githubusercontent.com/37283474/47763904-03e9db00-dd06-11e8-929c-287fc234be34.png">
 </div>
 
 전체적인 틀은 bootstrap 
