@@ -27,7 +27,7 @@
 기본적인 정보 선택
 
 <div>
-  <img src="https://user-images.githubusercontent.com/37283474/47767214-fa686f00-dd15-11e8-87b8-ce3cde841360.png">
+  <img src="https://user-images.githubusercontent.com/37283474/47767512-4c5dc480-dd17-11e8-905b-4c24c352c471.png">
   <img src="https://user-images.githubusercontent.com/37283474/47767422-e5d8a680-dd16-11e8-84a3-7d039ed3591c.png">
 </div>
 
